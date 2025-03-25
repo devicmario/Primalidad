@@ -27,13 +27,13 @@ public class Main {
     public static void mostrarResultado(int num, boolean esPrimo) {
 
         if(esPrimo) {
-        System.out.println("***************************");
+        System.out.println("*********************************");
         System.out.println("¡Correcto! El numero " + num + " es primo");
-            System.out.println("***************************");
+            System.out.println("*********************************");
     } else {
-            System.out.println("***************************");
+            System.out.println("*********************************");
             System.out.println("El numero " + num + " no es primo");
-            System.out.println("***************************");
+            System.out.println("*********************************");
         }
     }
 }
